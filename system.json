@@ -1,20 +1,10 @@
 {
   "name": "Легенда Героя",
   "title": "Моя система",
-  "download": https://github.com/MaksNotik/skills-introduction-to-github/archive/refs/heads/main.zip
+  "download": https://github.com/MaksNotik/legend-hero/releases/download/v1.0/legend-hero.zip",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "10",
     "verified": "11"
   }
-}
-  },
-  "esmodules": ["module/system.js"],
-  "styles": ["styles/sheet.css"],
-  "languages": [{
-    "lang": "ru",
-    "name": "Russian",
-    "path": "lang/ru.json"
-  }],
-  "packs": []
 }
