@@ -1,11 +1,13 @@
 {
-  "name": "legend-hero",
-  "title": "Легенда Героя",
-  "description": "Система для игры 'Легенда Героя'",
-  "version": "0.1",
+  "name": "Легенда Героя",
+  "title": "Моя система",
+  "download": https://github.com/MaksNotik/skills-introduction-to-github/archive/refs/heads/main.zip
+  "version": "1.0.0",
   "compatibility": {
     "minimum": "10",
     "verified": "11"
+  }
+}
   },
   "esmodules": ["module/system.js"],
   "styles": ["styles/sheet.css"],
