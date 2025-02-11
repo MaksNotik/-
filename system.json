@@ -1,10 +1,19 @@
 {
   "name": "Легенда Героя",
-  "title": "Моя система",
-  "download": https://github.com/MaksNotik/legend-hero/releases/download/v1.0/legend-hero.zip",
-  "version": "1.0.0",
+  "title": "Легенда Героя",
+  "description": "Система для игры 'Легенда Героя'",
+  "version": "0.1",
+  "download": "https://drive.google.com/file/d/1MytszHAUYZKUg4g2QuZuTLa2AEfebwHt/view?usp=sharing",
   "compatibility": {
     "minimum": "10",
     "verified": "11"
-  }
+  },
+  "esmodules": ["module/system.js"],
+  "styles": ["styles/sheet.css"],
+  "languages": [{
+    "lang": "ru",
+    "name": "Russian",
+    "path": "lang/ru.json"
+  }],
+  "packs": []
 }
