@@ -1,7 +1,7 @@
 {
   "id": "legend-hero",
-  "name": "Легенда Героя",
-  "title": "Моя система",
+  "name": "legend-hero",
+  "title": "legend-hero",
   "download": "https://github.com/MaksNotik/legend-hero/archive/refs/heads/main.zip",
   "version": "1.0.0",
   "compatibility": {
