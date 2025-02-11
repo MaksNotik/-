@@ -1,9 +1,10 @@
 {
+  "id": "legend-hero",
   "name": "Легенда Героя",
   "title": "Легенда Героя",
   "description": "Система для игры 'Легенда Героя'",
   "version": "0.1",
-  "download": "https://drive.usercontent.google.com/u/0/uc?id=1MytszHAUYZKUg4g2QuZuTLa2AEfebwHt&export=download",
+  "download": "https://raw.githubusercontent.com/MaksNotik/legend-hero/main/system.json",
   "compatibility": {
     "minimum": "10",
     "verified": "11"
