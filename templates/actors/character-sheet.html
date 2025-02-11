@@ -1,0 +1,36 @@
+<form class="legend-sheet">
+  <!-- Шапка -->
+  <header class="header">
+    <input class="name" type="text" name="name" value="{{actor.name}}">
+    <div class="profession">
+      <label>Профессия:</label>
+      <input type="text" name="system.profession" value="{{system.profession}}">
+    </div>
+  </header>
+
+  <!-- Основные секции -->
+  <div class="grid-container">
+    <!-- Состояния -->
+    <div class="states">
+      <h2>Душевные раны</h2>
+      <input type="number" name="system.soulWounds" value="{{system.soulWounds}}" min="0" max="6">
+      
+      <h2>Телесные раны</h2>
+      <input type="number" name="system.bodyWounds" value="{{system.bodyWounds}}" min="0" max="6">
+    </div>
+
+    <!-- Силы -->
+    <div class="abilities">
+      <h2>Силы Мира Грёв</h2>
+      {{#each system.powers}}
+        <div class="power-item">
+          <input type="text" name="system.powers.{{@index}}.name" value="{{this.name}}">
+          <select name="system.powers.{{@index}}.level">
+            {{selectOptions ../config.levels selected=this.level}}
+          </select>
+        </div>
+      {{/each}}
+      <button type="button" class="add-power">+ Добавить силу</button>
+    </div>
+  </div>
+</form>

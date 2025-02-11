@@ -1,0 +1,25 @@
+.legend-sheet {
+  background: url("../ui/parchment.jpg") repeat;
+  padding: 15px;
+  color: #2c2c2c;
+}
+
+.header {
+  margin-bottom: 20px;
+  padding: 10px;
+  background: rgba(0,0,0,0.1);
+}
+
+.name {
+  font-size: 24px;
+  border: 2px solid #8a4b08;
+  padding: 5px;
+  width: 100%;
+}
+
+.power-item {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+  margin: 10px 0;
+}
