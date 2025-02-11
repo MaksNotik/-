@@ -1,0 +1,18 @@
+{
+  "name": "legend-hero",
+  "title": "Легенда Героя",
+  "description": "Система для игры 'Легенда Героя'",
+  "version": "0.1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
+  "esmodules": ["module/system.js"],
+  "styles": ["styles/sheet.css"],
+  "languages": [{
+    "lang": "ru",
+    "name": "Russian",
+    "path": "lang/ru.json"
+  }],
+  "packs": []
+}
